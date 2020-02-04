@@ -30,7 +30,21 @@ public class Program {
 		}
 		
 		System.out.println();
+		System.out.println("Account data: ");
+		System.out.println(account);
+		System.out.println();
 		
+		System.out.print("Enter a deposit value: ");
+		account.deposit(sc.nextDouble());
+		System.out.println("Updated account data: ");
+		System.out.println(account);
+		System.out.println();
+		
+		System.out.print("Enter a withdraw value: ");
+		account.withdraw(sc.nextDouble());
+		System.out.println("Updated account data: ");
+		System.out.println(account);
+		System.out.println();
 		
 		
 		sc.close();
